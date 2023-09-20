@@ -64,6 +64,21 @@ header a {
 .workout-details span {
   position: absolute;
   top: 20px;
+  right: 60px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+.workout-details span::selection {
+  background-color: rgba(0,0,0,0);
+}
+
+.workout-details span.del {
+  position: absolute;
+  top: 20px;
   right: 20px;
   cursor: pointer;
   background-color: #f1f1f1;
